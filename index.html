@@ -8,9 +8,7 @@
 <button id="button_remove">Remove the last roll</button>
 <button id="button_restart">Start again</button>
 
-<scrip>
-
-
+<script>
 var dice, rolls, total, item;
 
 function randomInt(n) {
@@ -65,6 +63,8 @@ document.getElementById('button_roll').addEventListener('click', (event) => {
 document.getElementById('button_remove').addEventListener('click', (event) => {
   rolls.pop();
   display_game_state();
+
 });
-</scrip>
+
+</script>
   </hdml>
